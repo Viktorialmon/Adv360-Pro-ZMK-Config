@@ -72,11 +72,11 @@
         nvim {
             display-name = "Base";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &mkp MB3       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp LC(LS(Z))  &kp LC(V)       &kp LC(C)       &kp LC(Z)     &kp LC(X)        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp CAPS       &kp H           &kp J           &kp K         &kp L            &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp INS        &kp HOME        &kp B           &kp W         &kp END          &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                 &trans          &trans          &trans        &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                         &trans  &mkp MB3       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                         &trans  &kp LC(LS(Z))  &kp LC(V)       &kp LC(C)       &kp LC(Z)     &kp LC(X)        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans  &trans  &kp CAPS       &kp H           &kp J           &kp K         &kp L            &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                     &kp INS        &kp HOME        &kp B           &kp W         &kp END          &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &kp COLON  &trans  &trans                 &trans          &trans          &trans        &trans           &trans
             >;
         };
 
