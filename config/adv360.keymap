@@ -28,11 +28,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp ESC    &kp TILDE     &kp HASH   &kp EXCLAMATION       &kp AMPERSAND          &kp PERCENT  &kp PAGE_DOWN                                                         &kp PG_UP      &kp LESS_THAN  &kp GREATER_THAN  &kp ASTRK        &kp MINUS  &kp DOUBLE_QUOTES  &mo 5
-&kp CAPS   &kp Q         &kp W      &kp F                 &kp P                  &kp B        &msc SCRL_DOWN                                                        &msc SCRL_UP   &kp J          &kp L             &kp U            &kp Y      &kp BACKSLASH      &kp PIPE
-&kp TAB    &kp A         &kp R      &kp S                 &kp T                  &kp G        &kp HOME        &kp LCTRL  &kp LALT         &kp RIGHT_ALT  &kp RCTRL  &kp END        &kp M          &kp N             &kp E            &kp I      &kp O              &kp SQT
-&kp LSHFT  &kp Z         &kp X      &kp C                 &kp D                  &kp V                                   &lt 4 EQUAL      &lt 3 SEMI                               &kp K          &kp H             &kp COMMA        &kp DOT    &kp FSLH           &kp RIGHT_SHIFT
-&none      &kp LEFT_GUI  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS               &kp DELETE      &kp SPACE  &lt 1 ESC        &lt 2 TAB      &kp ENTER  &kp BACKSPACE                 &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp LBKT   &kp RBKT           &none
+&kp ESC    &kp TILDE     &kp HASH   &kp EXCLAMATION       &kp AMPERSAND          &kp PERCENT  &kp PAGE_DOWN                                                         &kp PG_UP      &kp LESS_THAN  &kp GREATER_THAN  &kp ASTRK        &kp MINUS  &kp AT         &mo 5
+&kp CAPS   &kp Q         &kp W      &kp F                 &kp P                  &kp B        &msc SCRL_DOWN                                                        &msc SCRL_UP   &kp J          &kp L             &kp U            &kp Y      &kp BACKSLASH  &kp PIPE
+&kp TAB    &kp A         &kp R      &kp S                 &kp T                  &kp G        &kp HOME        &kp LCTRL  &kp LALT         &kp RIGHT_ALT  &kp RCTRL  &kp END        &kp M          &kp N             &kp E            &kp I      &kp O          &kp SQT
+&kp LSHFT  &kp Z         &kp X      &kp C                 &kp D                  &kp V                                   &lt 4 EQUAL      &lt 3 SEMI                               &kp K          &kp H             &kp COMMA        &kp DOT    &kp FSLH       &kp RIGHT_SHIFT
+&none      &kp LEFT_GUI  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS               &kp DELETE      &kp SPACE  &lt 1 ESC        &lt 2 TAB      &kp ENTER  &kp BACKSPACE                 &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp LBKT   &kp RBKT       &none
             >;
         };
 
@@ -72,11 +72,11 @@
         nvim {
             display-name = "Base";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                         &trans  &mkp MB3       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                         &trans  &kp LC(LS(Z))  &kp LC(V)       &kp LC(C)       &kp LC(Z)     &kp LC(X)        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans  &trans  &kp CAPS       &kp H           &kp J           &kp K         &kp L            &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                     &kp INS        &kp HOME        &kp B           &kp W         &kp END          &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &kp COLON  &trans  &trans                 &trans          &trans          &trans        &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &mkp MB3       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &kp LC(LS(Z))  &kp LC(V)       &kp LC(C)       &kp LC(Z)     &kp LC(X)        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans             &trans  &kp CAPS       &kp H           &kp J           &kp K         &kp L            &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                                &kp INS        &kp HOME        &kp B           &kp W         &kp END          &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &kp COLON  &kp DOUBLE_QUOTES  &trans                 &trans          &trans          &trans        &trans           &trans
             >;
         };
 
